@@ -1,0 +1,9 @@
+---
+title: All he wanted was a candy bar
+author: Anna Smith
+id: blog-2
+---
+
+# All he wanted was a candy bar
+
+All he wanted was a candy bar. It didn't seem like a difficult request to comprehend, but the clerk remained frozen and didn't seem to want to honor the request. It might have had something to do with the gun pointed at his face.
