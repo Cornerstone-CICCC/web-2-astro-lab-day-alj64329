@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const projects = await getCollection("blog");
+---
+
+<Layout title="Blog">
+  <h1>Blog</h1>
+  <ul>
+    {
+      projects.map((post) => (
+        <li class="post-list">
+          <a href={`/blog/${post.data.id}`}>
+            {post.data.title} - by {post.data.author}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
